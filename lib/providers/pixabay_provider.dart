@@ -4,7 +4,7 @@ import 'package:galeria_reales/models/image_model.dart';
 import 'package:galeria_reales/models/video_model.dart';
 
 class PixabayProvider {
-  final String apiKey = '11755283-c502c8adfa1b1ac85c7363e59';
+  final String apiKey = '';
   final String baseUrl = 'https://pixabay.com/api/';
 
   Future<List<ImageModel>> getImages(String query) async {
